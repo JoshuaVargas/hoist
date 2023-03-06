@@ -117,6 +117,10 @@ function makeDojo(name, students){
 console.log(makeDojo("Chicago", 65));
 console.log(makeDojo("Berkeley", 0));
 
-//OUTPUT
+//OUTPUT:
 //{name: 'Chicago', students: 65, hiring = true}
 //"closed for now"
+
+//ACTUAL OUTPUT:
+//{name: 'Chicago', students: 65, hiring = true}
+//TyperError: Assignment to constant variable.
